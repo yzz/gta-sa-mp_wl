@@ -1,0 +1,538 @@
+TODO list
+上下车过程换皮肤导致crash
+建议添加 记录地盘抢夺记录功能.
+增加个帮派公告指令  输入/gang gg   就会弹出一个框框..内容是帮派10J管理员设定的../gang setgg [内容X内容] X是换行.... 
+增加设置帮派管理员等级的功能
+增加设置帮派武器、皮肤功能
+增加被杀可让杀人者去监狱的功能()
+anti-airbreak
+	change:扩大object渲染视距
+0.6.8.3_20110628
+	bugfix:暂时取消大战城，着手修复其中的大量bugs
+	bugfix:漂移系统不能使用的bug
+	bugfix:修复交通工具会自燃的bug
+	bugfix:修复不能自动修复交通工具的bug
+0.6.8.2_20110627
+
+	优化网络使用
+	change:取消自动修复车辆功能
+	change:取消晕血功能
+0.6.8.1_20110116
+
+	change:服务器更新到0.3c
+	change:大世界：副驾驶使用WEAPON_MINIGUN,WEAPON_SHOTGSPA,WEAPON_SAWEDOFF,WEAPON_DEAGLE,WEAPON_SILENCED,WEAPON_COLT45无效
+	change:大世界：夜视无效
+	change:大世界：大杀伤武器，交通工具攻击无效
+	change:大世界：可以使用所有武器
+	change:大世界：增加可用交通工具520,425,407,432,601
+	change:大战城:更详细的帮派关系颜色显示(suggest by fangye)
+	change:大战城:更人性化的武器购买菜单
+	addition:增加背武器的功能
+	addition:大战城:增加帮派车辆专用车牌
+	bugfix:修复object透明的bug(report by many)
+0.6.8.0_20110102
+
+	change:限制大战城GM的命令（/tv /warn）
+	change:未正式注册帮派可使用部分大战城功能(如进攻、购买)
+	addition/change:人性化的多语言设置功能
+	bugfix:修复可以把自己的交通工具带到大战城的bug
+	bugfix:修复TV状态下不能接受大战城聊天的bug
+	bugfix:修复大战城一个刷分的bug
+	bugfix:修复大战城武器作弊错误判断的bug
+	bugfix:提高了大战城作弊判断的精确度
+	bugfix:修复大战城内不能使用/ww chat 的bug
+0.6.7.8_20101226
+
+
+	addition:增加定时重启服务器的功能
+	change:Object只在大世界显示
+	change:大战城允许地盘进攻时间为19:00-22:00
+	bugfix:修复交通工具内攻击不减hp的bug
+	bugfix:修复地盘进攻完后仍在闪烁的bug
+0.6.7.7_20101218
+
+	addition:增加大战城内购买交通工具的功能
+	bugfix:修复大战城交通工具攻击不减hp的bug
+	bugfix:修复大战城雷达显示颜色错误的bug
+	bugfix:修复大战城交通工具自动加载nos的bug
+	bugfix:修复大战城不会自动关闭的bug
+	bugfix:修复没有地盘时重设出生点错误的bug
+0.6.7.6_20101128
+
+	addition:增加大战城反作弊(武器,传送,speedhack)
+	bugfix:修复可以在大战城外抢夺地盘的bug
+0.6.7.5_20101121
+
+	addition:增加定时打开/关闭大战城的功能
+	change:更人性化的雷达显示
+	change:更新大战城武器数据
+	bugfix:修复大战城出生错误的bug
+	bugfix:修复大战城出生点出错的bug
+0.6.7.0_20101113
+
+	bugfix:修复帮派创建出错的bug
+	bugfix:修复多语言系统导致crash的bug(pawn bug)
+0.6.6.1_20101106
+
+	bugfix:修复使用/c wode 可能导致服务器crash的bug
+	addition:增加高级改车命令/tunecar
+	addition:大战城公测版(beta 0.5)
+0.6.6.0_20101031
+		
+	addition:大战城(GANG-TDM)具备联网测试稳定性
+	addition:增加命令输入频率限制
+0.6.5.0_20101024
+
+
+	bugfix:修复路径大小写问题
+	bugfix:修复可以将非常规交通工具带到大世界的bug
+	bugfix:修复赛车名次显示错误的bug
+0.6.3.8_20101010
+
+	change:把武器带出DM不再惩罚玩家,用强制返回DM代替
+	change:取消组队系统(帮派系统代替)
+	change:取消团队系统(帮派系统代替)
+0.6.3.7_20101003
+
+	bugfix:修复玩家自建车辆太多造成卡的bug
+	change:取消black jack游戏
+0.6.3.6_20101002
+
+	bugfix:修复玩家下线不删除玩家交通工具的bug
+0.6.3.5_2010-09-27
+
+	addition:赛道开启全服提示
+	bugfix:修复玩家很容易掉线的bug
+0.6.3.4_2010-09-24
+
+	change:帐号/团队系统部分命令暂时不能使用
+0.6.3.3
+
+	bugfix:修复赛车系统导致服务器crash的bug
+0.6.3.2
+
+	change:Class model的加载在\wl\classmodel.ini设置
+0.6.3.1
+
+	addition:增加敏感词汇过滤功能
+	addition:增加屏蔽PM信息功能
+	change:优化代码，减少内存使用
+0.6.3.0
+
+	bugfix:DM误抓的bug
+0.6.2.2
+
+	change:优化object使用
+0.6.2.1
+
+	bugfix:赛车系统crash的bug
+	bugfix:传送object未加载的bug
+0.6.2.0
+
+	addition:增加出生点
+	addition:增加服务器交通工具
+	change:雷达显示范围扩大(100.0 -> 440.0)
+	change:去除/ldz出生点
+	change:优化object使用
+	change:ID为407(firetruck),601(S.W.A.T.)不能在大世界使用
+	change:增加大世界武器限制:TEARGAS,MOLTOV,FIREEXTINGUISHER,SPRAYCAN,FLAMETHROWER,CHAINSAW
+0.6.1.2
+
+	addition:增加出生点
+	addition:/r page [页码] - 通过页码快速查看赛道
+	bugfix:修复object渲染速度较慢的bug
+	change:雷达显示增加范围限制(distance:100.0)
+	change:nametag显示范围缩小(80.0 -> 40.0)
+	change:ID为476的交通工具可以在大世界使用
+0.6.1.1
+
+	addition:增加出生点
+	change:优化网络使用
+	change:ID为476的交通工具可以在大世界使用
+	change:大世界新武器限制： WEAPON_GRENADE,WEAPON_ROCKETLAUNCHER,WEAPON_HEATSEEKER,WEAPON_MINIGUN,WEAPON_SATCHEL,WEAPON_BOMB
+	bugfix:中文昵称不支持的bug
+	bugfix:/warn不显示理由的bug
+	bugfix:/unmute无效的bug
+	bugfix:DM武器带出误抓的bug
+	bugfix:多人同时制作赛道会出错的bug
+	bugfix:检查点制作过多会出现命令崩溃的bug
+	bugfix:可以把非常规交通车辆带到大世界的bug
+20100709
+
+	change:优化网络使用
+	change:夜视镜检查范围为大世界
+	change:去除车杀(drive by)检测
+	change:去除obj出生点
+	change:优化object使用
+	bugfix:DM武器检测系统错判的bug
+	bugfix:可以把非常规交通工具带出去的bug
+	bugfix:DM武器检测系统错判的bug
+	bugfix:修复警告(/warn)原因不显示的bug
+	bugfix:修复禁言(/mute)作用于使用者的bug
+20100628
+
+	addition:赛车系统
+	change:扩大玩家自制传送命令数量
+	bugfix:可以把pdm武器带出去的bug
+	bugfix:可以把非常规交通工具带出去的bug
+20100614
+
+	bugfix:race的bug(by ssh)
+	bugfix:传送命令制作不可以使用的bug(/vmake)
+20100405
+
+	addition:增加查看玩家漂移分数的功能(/d [玩家ID])
+	addition:drift point脚本
+	addition:增加playmode:hunter大战(/ww hunter)
+	addition:增加playmode:base(/ww base help)
+	addition:增加给予指定玩家武器的功能(/ww giveweapon)
+	addition:增加重设指定玩家武器的功能(/ww resetweapon)	
+	addition:更新了很多赛道(mainly by lxd)
+	change:去除了玩家在非大世界重设武器的功能(/ww resetweapon)
+	change:去除了玩家在非大世界获得武器的功能(/ww weapon)
+	change:去除了大部分特技obj
+	change:去除了切换提示(可能存在bug)
+	change:禁止使用/setname,其可能导致bug出现
+	change:服务器更新到samp 0.3a R7
+	bugfix:设置玩家车辆hp(/ww vechp)对任何玩家有效的bug
+	bugfix:可能存在的bug
+	bugfix:了在更言后仍可以用/ww chat的bug
+20100328
+
+	bugfix:部分objects可能不显示的bug
+	change:提高了违规交通工具检测精度
+20100309
+
+	addition:PlayMode纪录
+	addition:客机场景脚本
+	addition:/cs1-/cs7的传送命令
+	addition:spaz大战 - /ww spaz
+	addition:圈圈战 - /ww quanquan
+	addition:增加多个场景object
+	addition:增加多辆火车
+	change:去除动作命令的text提示,增加聊天框提示
+	bugfix:/ww goto|gethere的bug 
+20100228
+
+
+	addition:增加疑似广告检测
+	addition增加非大世界时聊天仅当前世界可见的规则
+	addition:修复/ww 系列命令可作用于大世界的bug
+			增加
+				/ww goto
+				/ww gethere
+				/ww tank - 快速发动tank大战
+				/ww minigun - 快速发动minigun大战
+	change:去除正常交流时的chatbubble
+	bugfix:尝试修复spectate可能存在的bug
+	bugfix:命令有可能出错的bug
+20100218
+
+root
+	提出大世界/专属世界/其它世界的概念
+		大世界: 即 world 0 - 所有玩家的共享世界
+		专属世界: 特定玩家拥有特定管理权限的世界
+		其它世界: 大世界与专属世界的反集
+inc wl/ruleop.inc
+	增加越狱的规则
+	加强了世界方面的检测
+	/jail命令设置为2J可用命令
+	修复车杀判断错误的bug
+inc wl/modes/virtualworld.inc
+	增加设置armour - /ww setarmour [玩家ID] [armour]
+	增加world chat - /ww [聊天内容]
+inc wl/subaccount.inc&wl/modes/wl_vec.inc
+	无限车血,自动修车功能只在大世界有效
+	取消了godmode的个性化设置
+	禁止id577的交通工具在大世界使用
+inc wl/wl_objective_h.inc
+	修复pdm使用c4会提示非法的bug
+20100216
+
+root
+	去除了gdm
+inc wl/modes/virtualworld.inc
+	加强了对世界的功能
+	/ww help
+	/ww help2
+fs sadmin.pwn
+	warn增加slap的效果
+20100215
+
+root
+	允许在非0世界使用任何武器
+inc wl/template/weathertime.inc
+	去除了大雾天气
+inc wl/wl_ruleop.inc&fs sadmin.pwn&wl/wl_base.pwn
+	加强了/jail的功能
+	/warn 3次 为jail 120s
+inc wl/modes/wl_vec.inc
+	禁止车厢和id592,476在正常世界使用
+inc wl/subaccount.inc
+	增加godmode的个性化设置
+20100211
+
+inc wl/modes/wl_vec.inc
+	修复传送到不同世界时会迟缓的bug
+	允许在非0世界创建任何车辆
+inc wl/modes/team.inc
+	去除debug信息
+fs sadmin,pwn
+	增加无限jail的功能
+fs Spectate.pwn
+	修复连续切换有可能引起virtual world变化的bug
+	修复有的玩家进入游戏时只能输入/tv的bug
+inc gcs/gcs_uf.inc
+	修复/id显示信息不完整的bug
+20090129
+
+
+inc wl/template/others.inc
+	/s的功能改变
+inc wl/modes/wl_vec.inc
+	匹配了个性化设置
+inc wl/wl_subaccount.inc
+	增加个性化设置功能
+fs sadmin.pwn
+	管理员的/jail /unjail转为gdm监狱
+inc wl/modes/dm/wl_gdm.inc
+	调整gdm监狱的位置
+inc wl/modes/wl_vec.inc
+	解禁警车
+200901224
+
+
+sf wl/object.ini
+	增加th21制作的航空母舰obj
+fs spectate.pwn
+	修复退出监视后世界会改变的bug
+inc wl/modes/team.inc
+	团队管理员分为3、5级
+	5级可设置3级团队管理员
+	
+	修复团聊会在chatbubble显示的bug
+inc wl/wl_account.inc
+	增加修改密码的子命令 changepass
+20090116
+
+
+fs sadmin.pwn
+	增加rconGM的等级为1337的规则
+inc gcs/gcs_uf&gcs/gcs_gcmd_tele
+	传送函数增加virtualworld的形参
+inc wl/account.inc
+	增加帐号系统
+inc wl/modes/team.inc
+	增加team (团队识别) 系统
+20090107
+
+root server.cfg
+	微调stream_rate 800
+fs drift.pwn
+	取消挂载drift point 系统 - 仍然不稳定
+inc wl/modes/dm/wl_dm_main.inc
+	设置teargas为常规武器
+inc wl/modes/drunkbyhp.inc
+	提高晕血检测频率
+inc wl/template/others.inc
+	完善挂机检测代码
+20091231
+
+
+inc wl/modes/dm/wl_dm_main.inc
+	细化了普通gdm和违规者gdm的区别
+inc wl/modes/dm/wl_gdm.inc
+	gdm可用任何命令
+	细化了普通gdm和违规者gdm的区别
+fs drift.pwn
+	增加drift point 系统
+	修复会无故起火的bug
+fs megatransportv3
+	增加几个常规npc
+20091227
+
+
+root server.cfg
+	onfoot_rate 100
+	incar_rate 100
+	weapon_rate 100
+	stream_distance 250.0
+	stream_rate 1500
+	微调rate
+gm wl.pwn
+	去除了出生自动有降落伞的功能 - 目前降落伞害死人的情况比较多
+inc wl/wl_ruleop.inc
+	增加不能使用夜视镜的规则
+inc wl/modes/dm/wl_pdm.inc
+	修复不合法DM提示为全体玩家的bug
+fs tele.pwn
+	修复会传送会切换世界的bug
+fs wl/wl_base.pwn
+	优化debug信息
+20091226
+
+
+root server.cfg
+	onfoot_rate 150
+	incar_rate 100
+	weapon_rate 100
+	stream_distance 250.0
+	stream_rate 1000
+	此设置比较适合自由服 - 减少网络环境差时容易掉线的问题
+inc wl/modes/wl_vec.inc
+	恢复锁车功能 - 已解决冲突问题
+inc wl/wl_ruleop.inc
+	增加ruleop.inc作为写入违反游戏规则的实现的模块
+	把司机杀列为规则 - 车杀=自杀+gdm
+inc wl/template/others.inc
+	增加玩家切换/太卡时的提示功能 - 在该玩家附近时显示他在挂机
+	增加切换格斗风格的功能
+fs Spectate.pwn
+	确定监察命令为'/tv'
+	增加'/tv id'观察指定玩家的功能(可以观察npc了)
+inc wl/modes/dm/wl_gdm.inc
+	修改gdm的出生点
+inc wl/moeds/dm/wl_dm_main.inc
+	增加使用非DM武器会被传送到gdm的功能
+inc wl/modes/dm/wl_pdm.inc
+	增加了DM区域闪烁的功能
+	完全修复pdm的bug
+20091220
+
+inc wl/modes/dm/wl_pdm.inc&wl_dm_main.inc
+	增加检测是否玩家使用非pdm武器
+inc wl/modes/dm/wl_pdm.inc
+	完善进入/退出dm - 解决与进入/退出dm有关的bug
+20091219
+
+
+	修复dialog的一些bug
+root server.cfg
+	微调 ->
+	onfoot_rate 100
+	incar_rate 40
+	weapon_rate 60
+	stream_distance 250.0
+	stream_rate 1000
+fs Spectate.pwn
+	增加简单的不同世界观察的功能
+inc wl/modes/wl_vec.inc
+	暂时去掉防掉车功能
+	创建的车辆默认不锁车
+inc wl/modes/dm/wl_dm_main.inc
+	允许自行车使用武器(高跳bug)
+inc wl/template/others.inc
+	世界可用名称或者ID
+inc wl/template/score.inc
+	暂时增加专门处理score的模块
+	增加每一分钟加1score的功能
+20091213
+
+	在各方面增加help.gtabbs.com的提示
+fs wl/wl_base.pwn
+	精简了debug信息
+inc wl/modes/dm/wl_dm_main.inc
+	增加驾驶员使用武器也会传送到gdm的功能
+	(尝试)修复上线有可能被传送到gdm的bug
+	玩家的dm信息保留到下线前
+inc wl/modes/dm/gdm.inc
+	修复去gdm容易摔死的bug
+inc gcs/gcs_bf.inf
+	修复了人数超过200会出现载入错误的bug
+inc gcs/gcs_uf.inc
+	屏蔽了会使游戏出现bug的代码(tag:player loop process)
+inc wl/template/others.inc
+	提升了/afk /back的视觉效果
+inc wl/template/weathertime.inc
+	去除了黑暗的天气
+inc wl/modes/wl_vec.inc
+	修复使用菜单会crash的bug
+	增加上车后提示车辆ID的提示
+	增加锁车后，玩家不小心摔下来会自动回去车上的功能
+20091211
+
+gm wl.pwn
+	修复score的bug
+inc wl/modes/wl_vec.inc 
+	修复改轮胎菜单回卡住的bug
+20091205
+
+sf wl/borcast*
+	修改了部分广告
+fs wl/wl_base.pwn
+	优化了debug信息
+fs tele.pwn
+	修正了日期显示错误的问题
+inc wl/template/others.inc
+	增加了随意切换场景的命令/w /world /changjing
+20091122
+
+inc gcs/gcs_uf
+	修复了名称显示会乱的bug
+gm wl.pwn
+	增加了score显示 - 50+-杀人/死亡次数
+20091108
+
+fs wl/wl_base.pwn
+	修复了可能导致crash的bug
+fs tele.pwn
+	修复容易crash的bug
+	更新了最近使用日期
+	更新提示为message(原来为gametext)
+20091025
+
+fs BJGame.pwn
+	修复了提示乱码的bug
+inc wl/modes/wl_vec.inc
+	召唤车辆后车辆可以出现在玩家所在的interior,virtual里面
+	修复了召唤车辆会卡的bug
+20091024
+
+inc wl/modes/wl_vec.inc
+	增加了/c [交通工具ID] 快速召唤车辆
+	调整了交通工具出生的颜色
+inc wl/template/forcespam.inc
+	减少了'刷卡'的时间间隔
+fs BJGame.pwn
+	增加了bj游戏(beta)
+inc gcs/gcs_bugfix.inc
+	修改bugfix脚本，适用于sa-mp 0.3a
+20091018
+
+inc wl/modes/wl_race.inc
+	开发新的赛车系统
+inc wl/wl_objective_h.inc
+	添加了class
+	修复了死亡信息双方对调的错误
+inc wl/template/others.inc
+	调整了/shang /xia /zuo /you等命令
+	修复了/count的bug,增加了声音
+fs wl/wl_base.pwn
+	增加了tv时不能使用命令的设置
+	修复了某些状态下不能pm的bug
+inc wl/template/weathertime.inc
+	微调了白天黑夜的频率
+root server.cfg
+	微调 ->
+	onfoot_rate 35
+	incar_rate 35
+	weapon_rate 35
+	stream_distance 210.0
+	stream_rate 1000
+inc wl/wl_objective_h.inc
+	更新了dm
+	更新了tele命令，效率更高
+fs wl/wl_base.pwn
+	更新了debug信息
+20091017
+
+inc wl/template/weathertime.inc
+	去除雨天和烟尘天气
+	减少了黑夜频率
+fs wl/wl_base.pwn
+	更新了debug信息
+inc wl/modes/dm/gdm.inc
+	去除了多余的debug信息
+root server.cfg
+	微调了stream_distance (300.0 -> 210.0)
+20091016
